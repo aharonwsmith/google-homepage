@@ -20,3 +20,18 @@ input[type=text] {
     margin-right: auto;
     padding-left: 30px;
 }
+button {
+    text-decoration: none;
+    background-color: lightgray;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 15px 18px;
+    margin: 30px 6px;
+    border: none;
+    text-align: center;
+    font-size: 14pt;
+}
+
+.button-alignment {
+    margin-left: 100px;
+}
