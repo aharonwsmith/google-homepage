@@ -1,20 +1,34 @@
-body { 
-    padding: none;
-    border: none;
-    margin: none;
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+body { 
+    padding: 0;
+    border: none;
+    margin: 0;
+    height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
 nav {
     width: 100%;
     line-height 40px;
     text-align: left;
 }
+
 nav ul {
     font-size: 12pt;
 }
 
 nav ul li{
     list-style-type: none;
-    display: inline;
+    display: inline-block;
     padding-right: 10px;
 }
 
@@ -23,15 +37,20 @@ nav ul li a {
     color: black;
 }
 
-nav ul li a: hover{
-    border-bottom-style: solid;
-    border-bottom-color: black;
+nav ul li a:hover {
+    text-decoration: underline;
 }
+
+.align-right {
+    float: right;
+}
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
 input[type=text] {
     border-radius: 20px;
     border: solid #dcdcdd;
@@ -44,6 +63,11 @@ input[type=text] {
     margin-right: auto;
     padding-left: 30px;
 }
+
+input[type=text]:hover {
+    box-shadow: 0 0 3px 3px lightgray;
+}
+
 button {
     text-decoration: none;
     background-color: lightgray;
@@ -56,7 +80,36 @@ button {
     font-size: 14pt;
 }
 
+button:hover {
+    border-style: solid;
+    border-width: 1px;
+}
+
 .button-center {
     width: 100%;
     text-align: center;
+}
+
+footer {
+    background-color: lightgray;
+    width: 100%;
+    line-height: 40px; 
+    positon: absolute;
+    bottom: 0px;
+    /* display: inline-block; */
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
 }
