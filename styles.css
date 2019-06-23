@@ -1,17 +1,11 @@
-html {
+html, body {
     height: 100%;
     margin: 0;
     padding: 0;
 }
 
-body { 
-    padding: 0;
-    border: none;
-    margin: 0;
-    height: 100%;
-}
-
-#wrapper {
+.wrapper {
+    height:auto;
     min-height: 100%;
     position: relative;
 }
@@ -22,22 +16,22 @@ nav {
     text-align: left;
 }
 
-nav ul {
+ul {
     font-size: 12pt;
 }
 
-nav ul li{
+ul li{
     list-style-type: none;
-    display: inline-block;
+    display: inline;
     padding-right: 10px;
 }
 
-nav ul li a {
+ul li a {
     text-decoration: none;
     color: black;
 }
 
-nav ul li a:hover {
+ul li a:hover {
     text-decoration: underline;
 }
 
@@ -90,26 +84,10 @@ button:hover {
     text-align: center;
 }
 
-footer {
+.footer {
     background-color: lightgray;
     width: 100%;
     line-height: 40px; 
     positon: absolute;
     bottom: 0px;
-    /* display: inline-block; */
-}
-
-footer ul li{
-    list-style-type: none;
-    display: inline;
-    padding-right: 10px;
-}
-
-footer ul li a {
-    text-decoration: none;
-    color: black;
-}
-
-footer ul li a:hover {
-    text-decoration: underline;
 }
