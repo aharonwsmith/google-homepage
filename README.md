@@ -1,5 +1,8 @@
 This is my attempt to remake the Google homepage.
 
+I am missing 2 elements:  how to have the microphone icon show
+in the "search bar" and how to get the footer to stay at the bottom.
+
 This is designed to showcase my skills in HTML and CSS
 
 This assignment comes from The Odin Project, a free and useful place to build your development skills.
