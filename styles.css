@@ -5,9 +5,7 @@ html, body {
 }
 
 .wrapper {
-    height:auto;
     min-height: 100%;
-    position: relative;
 }
 
 nav {
@@ -47,7 +45,7 @@ ul li a:hover {
 
 input[type=text] {
     border-radius: 20px;
-    border: solid #dcdcdd;
+    border: solid #d2d2d2;
     width: 60%;
     height: 45px;
     font-size: 16pt;
@@ -64,19 +62,18 @@ input[type=text]:hover {
 
 button {
     text-decoration: none;
-    background-color: lightgray;
+    background-color: #f4f4f4;
     border-radius: 4px;
     display: inline-block;
-    padding: 15px 18px;
-    margin: 35px 6px;
+    padding: 15px 18px 18px 18px;
+    margin: 35px 6px 0px 6px;
     border: none;
     text-align: center;
     font-size: 14pt;
 }
 
 button:hover {
-    border-style: solid;
-    border-width: 1px;
+    border:1px solid #d2d2d2;
 }
 
 .button-center {
@@ -84,10 +81,10 @@ button:hover {
     text-align: center;
 }
 
-.footer {
-    background-color: lightgray;
+footer {
+    height: 40px;
+    background-color: #f2f2f2;
     width: 100%;
-    line-height: 40px; 
-    positon: absolute;
-    bottom: 0px;
+    positon: fixed;
+    margin: none;
 }
