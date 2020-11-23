@@ -12,6 +12,6 @@ Author Aharon Smith
 
 email: aharonwsmith@gmail.com
 
-Linkedin: https://www.linkedin.com/in/aharon-smith-2019
+Linkedin: https://www.linkedin.com/in/aharonwsmith
 
 Git Hub: https://github.com/aharonwsmith
